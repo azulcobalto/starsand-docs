@@ -47,6 +47,6 @@ Three plain records contain duplicate JSON properties. Strict offline parsing re
 
 ## Example schemas
 
-[Examples](/template-loading/examples) and [schemas](/template-loading/schemas) preserve the smallest complete shipped record found per investigated family. Required fields mean required by that example shape contract, rather than a proven minimal native/runtime schema. Graph and POI examples contain shipped empty placeholders. The records retain dependencies and are research fixtures rather than standalone working mods.
+[Examples](./template-loading/examples) and [schemas](./template-loading/schemas) preserve the smallest complete shipped record found per investigated family. Required fields mean required by that example shape contract, rather than a proven minimal native/runtime schema. Graph and POI examples contain shipped empty placeholders. The records retain dependencies and are research fixtures rather than standalone working mods.
 
 Observed loose records and compiled collection entries are separate source versions. The [template-family table](../systems/template-loading.md#set-to-loaderconsumer-map) preserves their different totals; collection presence does not establish source selection, loaded content or runtime reachability.
