@@ -1,0 +1,65 @@
+{
+  "type": "object",
+  "properties": {
+    "Desc": {
+      "type": "string"
+    },
+    "DialogList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Condition": {
+            "type": "object",
+            "properties": {
+              "AND": {
+                "type": "array",
+                "items": {}
+              }
+            },
+            "required": [
+              "AND"
+            ],
+            "additionalProperties": false
+          },
+          "Sentences": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Tag": {
+                  "type": "string"
+                },
+                "Text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "Tag",
+                "Text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "Condition",
+          "Sentences"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "ID": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Desc",
+    "DialogList",
+    "ID"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "dialogue-library offline example contract",
+  "description": "Shape of the smallest complete shipped record in this scan; required fields describe this example contract, not native runtime requirements."
+}

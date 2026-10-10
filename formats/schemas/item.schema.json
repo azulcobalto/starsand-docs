@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "properties": {
+    "BaseResalePrice": {
+      "type": "integer"
+    },
+    "BaseValue": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "DisplayName": {
+      "type": "string"
+    },
+    "DropOnce": {
+      "type": "boolean"
+    },
+    "Extensions": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "ID": {
+      "type": "string"
+    },
+    "ItemLevel": {
+      "type": "integer"
+    },
+    "MaxQuality": {
+      "type": "integer"
+    },
+    "MaxStack": {
+      "type": "integer"
+    },
+    "Prefab": {
+      "type": "string"
+    },
+    "Tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Type": {
+      "type": "string"
+    },
+    "UIBigIcon": {
+      "type": "string"
+    },
+    "UIIcon": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "BaseResalePrice",
+    "BaseValue",
+    "Description",
+    "DisplayName",
+    "DropOnce",
+    "Extensions",
+    "ID",
+    "ItemLevel",
+    "MaxQuality",
+    "MaxStack",
+    "Prefab",
+    "Tags",
+    "Type",
+    "UIBigIcon",
+    "UIIcon"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "item offline example contract",
+  "description": "Shape of the smallest complete shipped record in this scan; required fields describe this example contract, not native runtime requirements."
+}

@@ -1,0 +1,157 @@
+{
+  "type": "object",
+  "properties": {
+    "AutoSave": {
+      "type": "boolean"
+    },
+    "AutoSaveOnCompleted": {
+      "type": "boolean"
+    },
+    "CompleteDescription": {
+      "type": "string"
+    },
+    "DebugThis": {
+      "type": "boolean"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Entities": {
+      "type": "array",
+      "items": {}
+    },
+    "Graph": {
+      "type": "object",
+      "properties": {
+        "Edges": {
+          "type": "array",
+          "items": {}
+        },
+        "Nodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Data": {
+                "type": "object",
+                "properties": {
+                  "DebugThis": {
+                    "type": "boolean"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "EnableRollback": {
+                    "type": "boolean"
+                  },
+                  "Goals": {
+                    "type": "array",
+                    "items": {}
+                  }
+                },
+                "required": [
+                  "DebugThis",
+                  "Description",
+                  "EnableRollback",
+                  "Goals"
+                ],
+                "additionalProperties": false
+              },
+              "ID": {
+                "type": "integer"
+              },
+              "Label": {
+                "type": "string"
+              },
+              "OutPort": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+              },
+              "PosX": {
+                "type": "integer"
+              },
+              "PosY": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "Data",
+              "ID",
+              "Label",
+              "OutPort",
+              "PosX",
+              "PosY"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "_canvasPos": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "integer"
+            },
+            "y": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "x",
+            "y"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "Edges",
+        "Nodes",
+        "_canvasPos"
+      ],
+      "additionalProperties": false
+    },
+    "ID": {
+      "type": "string"
+    },
+    "IsCrossSavable": {
+      "type": "boolean"
+    },
+    "IsHidden": {
+      "type": "boolean"
+    },
+    "RewardTemplate": {
+      "type": "string"
+    },
+    "Texts": {
+      "type": "array",
+      "items": {}
+    },
+    "Title": {
+      "type": "string"
+    },
+    "WorldTemplate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "AutoSave",
+    "AutoSaveOnCompleted",
+    "CompleteDescription",
+    "DebugThis",
+    "Description",
+    "Entities",
+    "Graph",
+    "ID",
+    "IsCrossSavable",
+    "IsHidden",
+    "RewardTemplate",
+    "Texts",
+    "Title",
+    "WorldTemplate"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "mission offline example contract",
+  "description": "Shape of the smallest complete shipped record in this scan; required fields describe this example contract, not native runtime requirements."
+}
