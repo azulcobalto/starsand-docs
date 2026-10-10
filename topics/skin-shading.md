@@ -1,0 +1,321 @@
+# Skin shading
+
+Topic `skin-shading`. Aliases: none. Scan date: 2026-10-02.
+
+[All topics](../TOPICS.md) · [Coverage](../_meta/COVERAGE.md)
+
+## Maintained reference
+
+- [Starsand Island — animation, rigs and facial expression](../systems/animation.md) — Starsand Island — animation, rigs and facial expression: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: starsand-island--animation-rigs-and-facial-expression](../systems/animation.md#starsand-island--animation-rigs-and-facial-expression) — Read this section with the record build, evidence and audit limits.
+  - [Section: a1-there-is-no-single-facial-animation-system](../systems/animation.md#a1-there-is-no-single-facial-animation-system) — Read this section with the record build, evidence and audit limits.
+  - [Section: a2-rigs-and-the-animationmap--the-core-mechanism](../systems/animation.md#a2-rigs-and-the-animationmap--the-core-mechanism) — Read this section with the record build, evidence and audit limits.
+  - [Section: f1_-is-the-canonical-authoring-namespace](../systems/animation.md#f1_-is-the-canonical-authoring-namespace) — Read this section with the record build, evidence and audit limits.
+  - [Section: this-explains-the-m5-anomaly](../systems/animation.md#this-explains-the-m5-anomaly) — Read this section with the record build, evidence and audit limits.
+  - [Section: a3-player-major-npc-minor-npc-crowd](../systems/animation.md#a3-player-major-npc-minor-npc-crowd) — Read this section with the record build, evidence and audit limits.
+  - [Section: a4-rig-prefixes-are-build-codes-not-gender](../systems/animation.md#a4-rig-prefixes-are-build-codes-not-gender) — Read this section with the record build, evidence and audit limits.
+  - [Section: a5-dialogue-is-the-highest-volume-expression-channel](../systems/animation.md#a5-dialogue-is-the-highest-volume-expression-channel) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-playernpc-split-shows-in-the-data](../systems/animation.md#the-playernpc-split-shows-in-the-data) — Read this section with the record build, evidence and audit limits.
+  - [Section: asset-backings-overlap--they-are-not-two-exclusive-types](../systems/animation.md#asset-backings-overlap--they-are-not-two-exclusive-types) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-animator-has-a-dedicated-face-layer](../systems/animation.md#the-animator-has-a-dedicated-face-layer) — Read this section with the record build, evidence and audit limits.
+  - [Section: a6-emoji--emotes-and-autonomous-npc-reactions](../systems/animation.md#a6-emoji--emotes-and-autonomous-npc-reactions) — Read this section with the record build, evidence and audit limits.
+  - [Section: a7-cutscene-animation-umovie](../systems/animation.md#a7-cutscene-animation-umovie) — Read this section with the record build, evidence and audit limits.
+  - [Section: a8-face-customization-and-makeup](../systems/animation.md#a8-face-customization-and-makeup) — Read this section with the record build, evidence and audit limits.
+  - [Section: a9-scale](../systems/animation.md#a9-scale) — Read this section with the record build, evidence and audit limits.
+  - [Section: a10-open](../systems/animation.md#a10-open) — Read this section with the record build, evidence and audit limits.
+- [Appearance composition and ownership contract](../systems/appearance-composition.md) — Skin and makeup composition equations, material and property-block ownership, clothing and preview reconstruction, plugin overlaps, and reproducible tattoo plus skin plus sock reference outputs. (current; evidence: metadata, extracted-data, native-default, offline-experiment, runtime-reported, inference; builds: gameassembly-237196995381).
+- [Dialogue](../systems/dialogue.md) — Dialogue: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: dialogue](../systems/dialogue.md#dialogue) — Read this section with the record build, evidence and audit limits.
+  - [Section: 1-repository-layout](../systems/dialogue.md#1-repository-layout) — Read this section with the record build, evidence and audit limits.
+  - [Section: 2-decompileddllsgameworlddialog-cluster-map-141-files](../systems/dialogue.md#2-decompileddllsgameworlddialog-cluster-map-141-files) — Read this section with the record build, evidence and audit limits.
+  - [Section: 3-playback-flow-verified](../systems/dialogue.md#3-playback-flow-verified) — Read this section with the record build, evidence and audit limits.
+  - [Section: 4-the-components--controllers--operators-triad](../systems/dialogue.md#4-the-components--controllers--operators-triad) — Read this section with the record build, evidence and audit limits.
+  - [Section: 6-dialogue-pool-and-provider-selection](../systems/dialogue.md#6-dialogue-pool-and-provider-selection) — Read this section with the record build, evidence and audit limits.
+  - [Section: how-a-lib-actually-reaches-a-player-verified-against-the-data](../systems/dialogue.md#how-a-lib-actually-reaches-a-player-verified-against-the-data) — Read this section with the record build, evidence and audit limits.
+  - [Section: path-1--the-entity-pool-this-is-where-npc-dialogue-actually-lives](../systems/dialogue.md#path-1--the-entity-pool-this-is-where-npc-dialogue-actually-lives) — Read this section with the record build, evidence and audit limits.
+  - [Section: npc-identity-filenames-are-codenames](../systems/dialogue.md#npc-identity-filenames-are-codenames) — Read this section with the record build, evidence and audit limits.
+  - [Section: 10-questmission-touchpoints](../systems/dialogue.md#10-questmission-touchpoints) — Read this section with the record build, evidence and audit limits.
+  - [Section: npc-commissions--sending-an-npc-to-work-for-you](../systems/dialogue.md#npc-commissions--sending-an-npc-to-work-for-you) — Read this section with the record build, evidence and audit limits.
+  - [Section: 11-dialogs-external-dependency-surface-42-types](../systems/dialogue.md#11-dialogs-external-dependency-surface-42-types) — Read this section with the record build, evidence and audit limits.
+  - [Section: 12-ui-side-dialogue-layer-namespace-ui-in-decompileddllsuiui](../systems/dialogue.md#12-ui-side-dialogue-layer-namespace-ui-in-decompileddllsuiui) — Read this section with the record build, evidence and audit limits.
+- [Face paint composition and rectangular outlines](../systems/makeup.md) — Face paint composition and rectangular outlines: preserved findings, source scope, and unresolved verification. (current; evidence: native-default, extracted-data, offline-experiment; builds: gameassembly-237196995381).
+- [Starsand Island skin shader analysis](../systems/skin-shading.md) — Starsand Island skin shader analysis: preserved findings, source scope, and unresolved verification. (current; evidence: native-default, extracted-data; builds: unknown).
+
+## Formats and modding contracts
+
+- [Material import and override constraints](../modding/material-overrides.md) — Material import and override constraints: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+
+## Working records and manuals
+
+- [Makeup fixes 0.1.0](../../Plugins/MakeupFixes/README.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata; builds: gameassembly-237196995381).
+  - [Section: makeupblurfix](../../Plugins/MakeupFixes/README.md#makeupblurfix) — Source-specific evidence and version limits remain in this section.
+- [Socks Proof of Concept 0.1.0](../../Plugins/SocksPoC/SocksPoC-README.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: scope](../../Plugins/SocksPoC/SocksPoC-README.md#scope) — Source-specific evidence and version limits remain in this section.
+  - [Section: rendering-and-lifetime](../../Plugins/SocksPoC/SocksPoC-README.md#rendering-and-lifetime) — Source-specific evidence and version limits remain in this section.
+- [Starsand Island: independent Socks slot feasibility](../../Plugins/SocksPoC/starsand-island-socks-feasibility.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: verdict](../../Plugins/SocksPoC/starsand-island-socks-feasibility.md#verdict) — Source-specific evidence and version limits remain in this section.
+  - [Section: texture-only-implementation](../../Plugins/SocksPoC/starsand-island-socks-feasibility.md#texture-only-implementation) — Source-specific evidence and version limits remain in this section.
+  - [Section: mesh-implementation](../../Plugins/SocksPoC/starsand-island-socks-feasibility.md#mesh-implementation) — Source-specific evidence and version limits remain in this section.
+  - [Section: recommended-proof-of-concept](../../Plugins/SocksPoC/starsand-island-socks-feasibility.md#recommended-proof-of-concept) — Source-specific evidence and version limits remain in this section.
+  - [Section: shader-reuse-addendum-native-masks-can-separate-skin-and-sock-tint](../../Plugins/SocksPoC/starsand-island-socks-feasibility.md#shader-reuse-addendum-native-masks-can-separate-skin-and-sock-tint) — Source-specific evidence and version limits remain in this section.
+  - [Section: static-verification-update](../../Plugins/SocksPoC/starsand-island-socks-feasibility.md#static-verification-update) — Source-specific evidence and version limits remain in this section.
+- [Socks: remaining static code checks](../../Plugins/SocksPoC/starsand-island-socks-remaining-code-checks.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: socks-remaining-static-code-checks](../../Plugins/SocksPoC/starsand-island-socks-remaining-code-checks.md#socks-remaining-static-code-checks) — Source-specific evidence and version limits remain in this section.
+  - [Section: result](../../Plugins/SocksPoC/starsand-island-socks-remaining-code-checks.md#result) — Source-specific evidence and version limits remain in this section.
+  - [Section: rendering-lifecycle-and-isolation](../../Plugins/SocksPoC/starsand-island-socks-remaining-code-checks.md#rendering-lifecycle-and-isolation) — Source-specific evidence and version limits remain in this section.
+  - [Section: mask-boundaries-and-underwear](../../Plugins/SocksPoC/starsand-island-socks-remaining-code-checks.md#mask-boundaries-and-underwear) — Source-specific evidence and version limits remain in this section.
+  - [Section: evidence](../../Plugins/SocksPoC/starsand-island-socks-remaining-code-checks.md#evidence) — Source-specific evidence and version limits remain in this section.
+- [Texture-only Socks: static checks](../../Plugins/SocksPoC/starsand-island-socks-static-checks.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: result](../../Plugins/SocksPoC/starsand-island-socks-static-checks.md#result) — Source-specific evidence and version limits remain in this section.
+  - [Section: 1-active-skin-shader](../../Plugins/SocksPoC/starsand-island-socks-static-checks.md#1-active-skin-shader) — Source-specific evidence and version limits remain in this section.
+  - [Section: 2-skin-updates-and-material-replacement](../../Plugins/SocksPoC/starsand-island-socks-static-checks.md#2-skin-updates-and-material-replacement) — Source-specific evidence and version limits remain in this section.
+  - [Section: 3-the-secondary-channel-is-already-in-use](../../Plugins/SocksPoC/starsand-island-socks-static-checks.md#3-the-secondary-channel-is-already-in-use) — Source-specific evidence and version limits remain in this section.
+  - [Section: 4-uv-coverage-and-geometry](../../Plugins/SocksPoC/starsand-island-socks-static-checks.md#4-uv-coverage-and-geometry) — Source-specific evidence and version limits remain in this section.
+  - [Section: 5-filtering-and-mask-choice](../../Plugins/SocksPoC/starsand-island-socks-static-checks.md#5-filtering-and-mask-choice) — Source-specific evidence and version limits remain in this section.
+  - [Section: recommended-implementation-scope](../../Plugins/SocksPoC/starsand-island-socks-static-checks.md#recommended-implementation-scope) — Source-specific evidence and version limits remain in this section.
+  - [Section: underwear-interpretation](../../Plugins/SocksPoC/starsand-island-socks-static-checks.md#underwear-interpretation) — Source-specific evidence and version limits remain in this section.
+- [Socks UI feasibility and implemented proof of concept](../../Plugins/SocksPoC/starsand-island-socks-ui-feasibility.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: finding](../../Plugins/SocksPoC/starsand-island-socks-ui-feasibility.md#finding) — Source-specific evidence and version limits remain in this section.
+  - [Section: implementation](../../Plugins/SocksPoC/starsand-island-socks-ui-feasibility.md#implementation) — Source-specific evidence and version limits remain in this section.
+  - [Section: deliverables-and-evidence](../../Plugins/SocksPoC/starsand-island-socks-ui-feasibility.md#deliverables-and-evidence) — Source-specific evidence and version limits remain in this section.
+- [Starsand Island clothing-slot development findings](../../Plugins/SocksSlot/DEVELOPMENT.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: 5-why-the-original-shoes-made-feet-disappear](../../Plugins/SocksSlot/DEVELOPMENT.md#5-why-the-original-shoes-made-feet-disappear) — Source-specific evidence and version limits remain in this section.
+  - [Section: a-artwork-disappears-while-managed-caches-still-exist](../../Plugins/SocksSlot/DEVELOPMENT.md#a-artwork-disappears-while-managed-caches-still-exist) — Source-specific evidence and version limits remain in this section.
+  - [Section: 7-texture-only-socks-reuse-the-body-shader](../../Plugins/SocksSlot/DEVELOPMENT.md#7-texture-only-socks-reuse-the-body-shader) — Source-specific evidence and version limits remain in this section.
+  - [Section: 7a-male-texture-socks-050](../../Plugins/SocksSlot/DEVELOPMENT.md#7a-male-texture-socks-050) — Source-specific evidence and version limits remain in this section.
+  - [Section: 8-skating-footwear-is-an-interaction-not-an-outfit-selection](../../Plugins/SocksSlot/DEVELOPMENT.md#8-skating-footwear-is-an-interaction-not-an-outfit-selection) — Source-specific evidence and version limits remain in this section.
+- [Creating mods with SocksSlot](../../Plugins/SocksSlot/MODDERS.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: mesh-socks](../../Plugins/SocksSlot/MODDERS.md#mesh-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: texture-only-socks](../../Plugins/SocksSlot/MODDERS.md#texture-only-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: verify-before-sharing](../../Plugins/SocksSlot/MODDERS.md#verify-before-sharing) — Source-specific evidence and version limits remain in this section.
+- [SocksSlot 0.5.0](../../Plugins/SocksSlot/README.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: socksslot-050](../../Plugins/SocksSlot/README.md#socksslot-050) — Source-specific evidence and version limits remain in this section.
+  - [Section: validation-and-limits](../../Plugins/SocksSlot/README.md#validation-and-limits) — Source-specific evidence and version limits remain in this section.
+- [F1_159 two-tone hair / hat trace](../../Plugins/TwoToneHair/HatBugTrace-2026-09-30.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: native-call-chain](../../Plugins/TwoToneHair/HatBugTrace-2026-09-30.md#native-call-chain) — Source-specific evidence and version limits remain in this section.
+- [Initial Makeup preview: static trace and save inspection](../../Plugins/TwoToneHair/MakeupPreviewTrace-2026-10-01.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: other-paths-checked](../../Plugins/TwoToneHair/MakeupPreviewTrace-2026-10-01.md#other-paths-checked) — Source-specific evidence and version limits remain in this section.
+- [Authored toe boxes from above — 2026-10-02](../../work/shoe-rig-conversion/direction-inspection/toebox-top-findings.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata; builds: gameassembly-237196995381).
+  - [Section: authored-toe-boxes-from-above--2026-10-02](../../work/shoe-rig-conversion/direction-inspection/toebox-top-findings.md#authored-toe-boxes-from-above--2026-10-02) — Source-specific evidence and version limits remain in this section.
+- [Shoe rig conversion handoff — 2026-10-01](../../work/shoe-rig-conversion/HANDOFF.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: users-intent-and-nonnegotiable-constraints](../../work/shoe-rig-conversion/HANDOFF.md#users-intent-and-nonnegotiable-constraints) — Source-specific evidence and version limits remain in this section.
+  - [Section: inputs-and-their-roles](../../work/shoe-rig-conversion/HANDOFF.md#inputs-and-their-roles) — Source-specific evidence and version limits remain in this section.
+  - [Section: measured-anatomy-and-bone-findings](../../work/shoe-rig-conversion/HANDOFF.md#measured-anatomy-and-bone-findings) — Source-specific evidence and version limits remain in this section.
+  - [Section: negative-findings-abandoned-approaches-and-unresolved-work](../../work/shoe-rig-conversion/HANDOFF.md#negative-findings-abandoned-approaches-and-unresolved-work) — Source-specific evidence and version limits remain in this section.
+- [Bone registration and mandatory footwear fit constraints](../../work/shoe-rig-conversion/physical-fit-contract.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: bone-locations](../../work/shoe-rig-conversion/physical-fit-contract.md#bone-locations) — Source-specific evidence and version limits remain in this section.
+  - [Section: 1-lock-the-target-skeleton-and-register-the-animation-landmarks-first](../../work/shoe-rig-conversion/physical-fit-contract.md#1-lock-the-target-skeleton-and-register-the-animation-landmarks-first) — Source-specific evidence and version limits remain in this section.
+  - [Section: 3-transfer-the-sources-body-relative-clearance-at-shoeskin-junctions](../../work/shoe-rig-conversion/physical-fit-contract.md#3-transfer-the-sources-body-relative-clearance-at-shoeskin-junctions) — Source-specific evidence and version limits remain in this section.
+  - [Section: 4-the-naked-foot-is-a-minimum-fit-envelope](../../work/shoe-rig-conversion/physical-fit-contract.md#4-the-naked-foot-is-a-minimum-fit-envelope) — Source-specific evidence and version limits remain in this section.
+  - [Section: acceptance-and-correction-order](../../work/shoe-rig-conversion/physical-fit-contract.md#acceptance-and-correction-order) — Source-specific evidence and version limits remain in this section.
+- [MagicaCloth v1: skirt simulation and F1/M5 feasibility](../../work/skirt-rig-feasibility/magicacloth-v1-research.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: what-v1-simulates](../../work/skirt-rig-feasibility/magicacloth-v1-research.md#what-v1-simulates) — Source-specific evidence and version limits remain in this section.
+  - [Section: animation-and-simulation-are-separate-layers](../../work/skirt-rig-feasibility/magicacloth-v1-research.md#animation-and-simulation-are-separate-layers) — Source-specific evidence and version limits remain in this section.
+  - [Section: current-native-prefab-evidence](../../work/skirt-rig-feasibility/magicacloth-v1-research.md#current-native-prefab-evidence) — Source-specific evidence and version limits remain in this section.
+- [Skirt rig feasibility audit — 2026-10-02](../../work/skirt-rig-feasibility/README.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: verified-from-files](../../work/skirt-rig-feasibility/README.md#verified-from-files) — Source-specific evidence and version limits remain in this section.
+  - [Section: runtime-evidence-and-limits](../../work/skirt-rig-feasibility/README.md#runtime-evidence-and-limits) — Source-specific evidence and version limits remain in this section.
+- [F1/M5 169 upper-body comparison](../../work/skirt-rig-feasibility/upperbody-169-comparison.md) — Retained working-record; consult this source for exact evidence, version and limitations. (current; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: f1m5-169-upper-body-comparison](../../work/skirt-rig-feasibility/upperbody-169-comparison.md#f1m5-169-upper-body-comparison) — Source-specific evidence and version limits remain in this section.
+
+## Research and negative results
+
+- [Static-analysis foundations for future mods](../research/static-foundations.md) — Static-analysis foundations for future mods: preserved findings, source scope, and unresolved verification. (current; evidence: none; builds: unknown).
+
+## Issues and open questions
+
+- [Makeup rectangular outlines](../issues/makeup-outline.md) — Makeup rectangular outlines: preserved findings, source scope, and unresolved verification. (current; evidence: offline-experiment, native-default; builds: unknown).
+
+## Audit corrections
+
+- [Verification report: `animation.md`](../audits/2026-09-01-animationsystem-verification-report.md) — Verification report: `animation.md`: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: verification-report-animationmd](../audits/2026-09-01-animationsystem-verification-report.md#verification-report-animationmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: executive-verdict](../audits/2026-09-01-animationsystem-verification-report.md#executive-verdict) — Read this section with the record build, evidence and audit limits.
+  - [Section: verdict-ledger](../audits/2026-09-01-animationsystem-verification-report.md#verdict-ledger) — Read this section with the record build, evidence and audit limits.
+  - [Section: evidence-boundary-and-method](../audits/2026-09-01-animationsystem-verification-report.md#evidence-boundary-and-method) — Read this section with the record build, evidence and audit limits.
+  - [Section: a1--mechanism-model](../audits/2026-09-01-animationsystem-verification-report.md#a1--mechanism-model) — Read this section with the record build, evidence and audit limits.
+  - [Section: verdict-confirmed-with-correction](../audits/2026-09-01-animationsystem-verification-report.md#verdict-confirmed-with-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: a2--rigs-and-animationmap](../audits/2026-09-01-animationsystem-verification-report.md#a2--rigs-and-animationmap) — Read this section with the record build, evidence and audit limits.
+  - [Section: rig-clip-population](../audits/2026-09-01-animationsystem-verification-report.md#rig-clip-population) — Read this section with the record build, evidence and audit limits.
+  - [Section: map-populations](../audits/2026-09-01-animationsystem-verification-report.md#map-populations) — Read this section with the record build, evidence and audit limits.
+  - [Section: robot-correction](../audits/2026-09-01-animationsystem-verification-report.md#robot-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: m5-qualification](../audits/2026-09-01-animationsystem-verification-report.md#m5-qualification) — Read this section with the record build, evidence and audit limits.
+  - [Section: a3--entity-composition-and-tiers](../audits/2026-09-01-animationsystem-verification-report.md#a3--entity-composition-and-tiers) — Read this section with the record build, evidence and audit limits.
+  - [Section: confirmed-structure](../audits/2026-09-01-animationsystem-verification-report.md#confirmed-structure) — Read this section with the record build, evidence and audit limits.
+  - [Section: tier-table-correction](../audits/2026-09-01-animationsystem-verification-report.md#tier-table-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: a4--rig-prefixes-and-gender](../audits/2026-09-01-animationsystem-verification-report.md#a4--rig-prefixes-and-gender) — Read this section with the record build, evidence and audit limits.
+  - [Section: verdict-core-warning-confirmed-build-meanings-inferred](../audits/2026-09-01-animationsystem-verification-report.md#verdict-core-warning-confirmed-build-meanings-inferred) — Read this section with the record build, evidence and audit limits.
+  - [Section: a5--dialogue-animation](../audits/2026-09-01-animationsystem-verification-report.md#a5--dialogue-animation) — Read this section with the record build, evidence and audit limits.
+  - [Section: correct-volumes](../audits/2026-09-01-animationsystem-verification-report.md#correct-volumes) — Read this section with the record build, evidence and audit limits.
+  - [Section: rig-and-tag-corrections](../audits/2026-09-01-animationsystem-verification-report.md#rig-and-tag-corrections) — Read this section with the record build, evidence and audit limits.
+  - [Section: asset-matching-correction](../audits/2026-09-01-animationsystem-verification-report.md#asset-matching-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: face-handle-and-operator-behavior](../audits/2026-09-01-animationsystem-verification-report.md#face-handle-and-operator-behavior) — Read this section with the record build, evidence and audit limits.
+  - [Section: a6--emoji](../audits/2026-09-01-animationsystem-verification-report.md#a6--emoji) — Read this section with the record build, evidence and audit limits.
+  - [Section: config-and-declarations](../audits/2026-09-01-animationsystem-verification-report.md#config-and-declarations) — Read this section with the record build, evidence and audit limits.
+  - [Section: capability-versus-shipped-use](../audits/2026-09-01-animationsystem-verification-report.md#capability-versus-shipped-use) — Read this section with the record build, evidence and audit limits.
+  - [Section: asset-predicates-and-shared-naming-ecosystem](../audits/2026-09-01-animationsystem-verification-report.md#asset-predicates-and-shared-naming-ecosystem) — Read this section with the record build, evidence and audit limits.
+  - [Section: a7--umovie](../audits/2026-09-01-animationsystem-verification-report.md#a7--umovie) — Read this section with the record build, evidence and audit limits.
+  - [Section: type-correction](../audits/2026-09-01-animationsystem-verification-report.md#type-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: assembly-and-use-correction](../audits/2026-09-01-animationsystem-verification-report.md#assembly-and-use-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: a8--face-customization-makeup-and-materials](../audits/2026-09-01-animationsystem-verification-report.md#a8--face-customization-makeup-and-materials) — Read this section with the record build, evidence and audit limits.
+  - [Section: a9--scale](../audits/2026-09-01-animationsystem-verification-report.md#a9--scale) — Read this section with the record build, evidence and audit limits.
+  - [Section: a10--revised-open-register](../audits/2026-09-01-animationsystem-verification-report.md#a10--revised-open-register) — Read this section with the record build, evidence and audit limits.
+  - [Section: reproducibility](../audits/2026-09-01-animationsystem-verification-report.md#reproducibility) — Read this section with the record build, evidence and audit limits.
+
+## Historical and superseded sources
+
+- [Starsand Island — animation, rigs and facial expression](../_archive/animation-alternate.md) — Starsand Island — animation, rigs and facial expression: preserved findings, source scope, and unresolved verification. (historical; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: starsand-island--animation-rigs-and-facial-expression](../_archive/animation-alternate.md#starsand-island--animation-rigs-and-facial-expression) — Read this section with the record build, evidence and audit limits.
+  - [Section: a1-there-is-no-single-facial-animation-system](../_archive/animation-alternate.md#a1-there-is-no-single-facial-animation-system) — Read this section with the record build, evidence and audit limits.
+  - [Section: a2-body-rigs-face-models-and-animationmap--the-core-mechanism](../_archive/animation-alternate.md#a2-body-rigs-face-models-and-animationmap--the-core-mechanism) — Read this section with the record build, evidence and audit limits.
+  - [Section: f1_-is-the-canonical-authoring-namespace](../_archive/animation-alternate.md#f1_-is-the-canonical-authoring-namespace) — Read this section with the record build, evidence and audit limits.
+  - [Section: roleface_-is-a-second-charactermodel-specific-remapping-layer](../_archive/animation-alternate.md#roleface_-is-a-second-charactermodel-specific-remapping-layer) — Read this section with the record build, evidence and audit limits.
+  - [Section: this-explains-the-m5-anomaly](../_archive/animation-alternate.md#this-explains-the-m5-anomaly) — Read this section with the record build, evidence and audit limits.
+  - [Section: what-the-supplied-m5-face-rig-evidence-establishes](../_archive/animation-alternate.md#what-the-supplied-m5-face-rig-evidence-establishes) — Read this section with the record build, evidence and audit limits.
+  - [Section: a3-player-major-npc-minor-npc-crowd](../_archive/animation-alternate.md#a3-player-major-npc-minor-npc-crowd) — Read this section with the record build, evidence and audit limits.
+  - [Section: a4-rig-prefixes-are-build-codes-not-gender](../_archive/animation-alternate.md#a4-rig-prefixes-are-build-codes-not-gender) — Read this section with the record build, evidence and audit limits.
+  - [Section: a5-dialogue-is-the-highest-volume-expression-channel](../_archive/animation-alternate.md#a5-dialogue-is-the-highest-volume-expression-channel) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-playernpc-split-shows-in-the-data](../_archive/animation-alternate.md#the-playernpc-split-shows-in-the-data) — Read this section with the record build, evidence and audit limits.
+  - [Section: asset-backings-overlap--they-are-not-two-exclusive-types](../_archive/animation-alternate.md#asset-backings-overlap--they-are-not-two-exclusive-types) — Read this section with the record build, evidence and audit limits.
+  - [Section: dialogue-declares-a-separate-face-handle](../_archive/animation-alternate.md#dialogue-declares-a-separate-face-handle) — Read this section with the record build, evidence and audit limits.
+  - [Section: a6-emoji--emotes-and-autonomous-npc-reactions](../_archive/animation-alternate.md#a6-emoji--emotes-and-autonomous-npc-reactions) — Read this section with the record build, evidence and audit limits.
+  - [Section: a7-cutscene-animation-umovie](../_archive/animation-alternate.md#a7-cutscene-animation-umovie) — Read this section with the record build, evidence and audit limits.
+  - [Section: a8-face-customization-and-makeup](../_archive/animation-alternate.md#a8-face-customization-and-makeup) — Read this section with the record build, evidence and audit limits.
+  - [Section: a9-scale](../_archive/animation-alternate.md#a9-scale) — Read this section with the record build, evidence and audit limits.
+  - [Section: a10-open](../_archive/animation-alternate.md#a10-open) — Read this section with the record build, evidence and audit limits.
+- [clues.md — directive and undocumented threads](../npcchatai/clues.md) — Retained historical; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: unknown).
+  - [Section: c8-dll-map-gaps](../npcchatai/clues.md#c8-dll-map-gaps) — Source-specific evidence and version limits remain in this section.
+- [Creating mods with SocksSlot](../../Plugins/SocksSlot/dist/release-docs/MODDERS.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: mesh-socks](../../Plugins/SocksSlot/dist/release-docs/MODDERS.md#mesh-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: texture-only-socks](../../Plugins/SocksSlot/dist/release-docs/MODDERS.md#texture-only-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: verify-before-sharing](../../Plugins/SocksSlot/dist/release-docs/MODDERS.md#verify-before-sharing) — Source-specific evidence and version limits remain in this section.
+- [SocksSlot 0.5.0](../../Plugins/SocksSlot/dist/release-docs/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: socksslot-050](../../Plugins/SocksSlot/dist/release-docs/README.md#socksslot-050) — Source-specific evidence and version limits remain in this section.
+  - [Section: validation-and-limits](../../Plugins/SocksSlot/dist/release-docs/README.md#validation-and-limits) — Source-specific evidence and version limits remain in this section.
+- [F1_159 two-tone hair / hat trace](../../Plugins/TwoToneHair%20-%20Copy/HatBugTrace-2026-09-30.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: native-call-chain](../../Plugins/TwoToneHair%20-%20Copy/HatBugTrace-2026-09-30.md#native-call-chain) — Source-specific evidence and version limits remain in this section.
+- [Initial Makeup preview: static trace and save inspection](../../Plugins/TwoToneHair%20-%20Copy/MakeupPreviewTrace-2026-10-01.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: other-paths-checked](../../Plugins/TwoToneHair%20-%20Copy/MakeupPreviewTrace-2026-10-01.md#other-paths-checked) — Source-specific evidence and version limits remain in this section.
+- [HSV base-texture proof: 0.3.0](../../Plugins/TwoToneHair%20-%20Copy/Plugin-oklab/HsvBaseProof.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: live-appearance-findings-2026-09-30](../../Plugins/TwoToneHair%20-%20Copy/Plugin-oklab/HsvBaseProof.md#live-appearance-findings-2026-09-30) — Source-specific evidence and version limits remain in this section.
+- [HSV base-texture proof: 0.3.0](../../Plugins/TwoToneHair/Plugin-oklab/HsvBaseProof.md) — Retained working-record; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: live-appearance-findings-2026-09-30](../../Plugins/TwoToneHair/Plugin-oklab/HsvBaseProof.md#live-appearance-findings-2026-09-30) — Source-specific evidence and version limits remain in this section.
+- [F1 ↔ M5 footwear conversion, calibrated from item 169](../../work/shoe-rig-conversion/algorithm.md) — Retained working-record; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: single-item-conversion](../../work/shoe-rig-conversion/algorithm.md#single-item-conversion) — Source-specific evidence and version limits remain in this section.
+  - [Section: measurements](../../work/shoe-rig-conversion/algorithm.md#measurements) — Source-specific evidence and version limits remain in this section.
+  - [Section: calibration-algorithm](../../work/shoe-rig-conversion/algorithm.md#calibration-algorithm) — Source-specific evidence and version limits remain in this section.
+  - [Section: skin-and-shading-conversion](../../work/shoe-rig-conversion/algorithm.md#skin-and-shading-conversion) — Source-specific evidence and version limits remain in this section.
+- [Foot anatomy and canvas calibration](../../work/shoe-rig-conversion/iteration2.md) — Retained working-record; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: fit-and-verification](../../work/shoe-rig-conversion/iteration2.md#fit-and-verification) — Source-specific evidence and version limits remain in this section.
+- [Item 124: preserve source design during rig transfer](../../work/shoe-rig-conversion/negative-pair-124.md) — Retained working-record; consult this source for exact evidence, version and limitations. (historical; evidence: metadata; builds: gameassembly-237196995381).
+  - [Section: item-124-preserve-source-design-during-rig-transfer](../../work/shoe-rig-conversion/negative-pair-124.md#item-124-preserve-source-design-during-rig-transfer) — Source-specific evidence and version limits remain in this section.
+- [Deterministic footwear conversion: F1 ↔ M5](../../work/shoe-rig-conversion/README-v3.md) — Retained historical; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: algorithm](../../work/shoe-rig-conversion/README-v3.md#algorithm) — Source-specific evidence and version limits remain in this section.
+  - [Section: included-skin-and-sandals](../../work/shoe-rig-conversion/README-v3.md#included-skin-and-sandals) — Source-specific evidence and version limits remain in this section.
+  - [Section: verification-and-limits](../../work/shoe-rig-conversion/README-v3.md#verification-and-limits) — Source-specific evidence and version limits remain in this section.
+- [Footwear converter v4](../../work/shoe-rig-conversion/README-v4.md) — Retained historical; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: constraints-and-preserved-data](../../work/shoe-rig-conversion/README-v4.md#constraints-and-preserved-data) — Source-specific evidence and version limits remain in this section.
+  - [Section: verification](../../work/shoe-rig-conversion/README-v4.md#verification) — Source-specific evidence and version limits remain in this section.
+- [Footwear converter v5](../../work/shoe-rig-conversion/README-v5.md) — Retained historical; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: constraints-and-preserved-data](../../work/shoe-rig-conversion/README-v5.md#constraints-and-preserved-data) — Source-specific evidence and version limits remain in this section.
+  - [Section: verification](../../work/shoe-rig-conversion/README-v5.md#verification) — Source-specific evidence and version limits remain in this section.
+- [Socks Proof of Concept 0.1.1](../../work/socks-feasibility/installer-011-20261001-124720-168/bundle/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: changes-in-011](../../work/socks-feasibility/installer-011-20261001-124720-168/bundle/README.md#changes-in-011) — Source-specific evidence and version limits remain in this section.
+  - [Section: scope](../../work/socks-feasibility/installer-011-20261001-124720-168/bundle/README.md#scope) — Source-specific evidence and version limits remain in this section.
+  - [Section: rendering-and-lifetime](../../work/socks-feasibility/installer-011-20261001-124720-168/bundle/README.md#rendering-and-lifetime) — Source-specific evidence and version limits remain in this section.
+- [Socks Proof of Concept 0.2.0](../../work/socks-feasibility/installer-020-20261001-140339-811/bundle/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: mesh-socks-in-020](../../work/socks-feasibility/installer-020-20261001-140339-811/bundle/README.md#mesh-socks-in-020) — Source-specific evidence and version limits remain in this section.
+  - [Section: changes-in-011](../../work/socks-feasibility/installer-020-20261001-140339-811/bundle/README.md#changes-in-011) — Source-specific evidence and version limits remain in this section.
+  - [Section: scope](../../work/socks-feasibility/installer-020-20261001-140339-811/bundle/README.md#scope) — Source-specific evidence and version limits remain in this section.
+  - [Section: rendering-and-lifetime](../../work/socks-feasibility/installer-020-20261001-140339-811/bundle/README.md#rendering-and-lifetime) — Source-specific evidence and version limits remain in this section.
+  - [Section: verification](../../work/socks-feasibility/installer-020-20261001-140339-811/bundle/README.md#verification) — Source-specific evidence and version limits remain in this section.
+- [Socks Proof of Concept 0.2.1](../../work/socks-feasibility/installer-021-20261001-144339-091/bundle/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: mesh-socks-in-020](../../work/socks-feasibility/installer-021-20261001-144339-091/bundle/README.md#mesh-socks-in-020) — Source-specific evidence and version limits remain in this section.
+  - [Section: changes-in-011](../../work/socks-feasibility/installer-021-20261001-144339-091/bundle/README.md#changes-in-011) — Source-specific evidence and version limits remain in this section.
+  - [Section: scope](../../work/socks-feasibility/installer-021-20261001-144339-091/bundle/README.md#scope) — Source-specific evidence and version limits remain in this section.
+  - [Section: rendering-and-lifetime](../../work/socks-feasibility/installer-021-20261001-144339-091/bundle/README.md#rendering-and-lifetime) — Source-specific evidence and version limits remain in this section.
+  - [Section: verification](../../work/socks-feasibility/installer-021-20261001-144339-091/bundle/README.md#verification) — Source-specific evidence and version limits remain in this section.
+- [Socks Proof of Concept 0.3.0](../../work/socks-feasibility/installer-030-20261001-151826-888/bundle/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: optional-skating-mesh-in-030](../../work/socks-feasibility/installer-030-20261001-151826-888/bundle/README.md#optional-skating-mesh-in-030) — Source-specific evidence and version limits remain in this section.
+  - [Section: mesh-socks-in-020](../../work/socks-feasibility/installer-030-20261001-151826-888/bundle/README.md#mesh-socks-in-020) — Source-specific evidence and version limits remain in this section.
+  - [Section: changes-in-011](../../work/socks-feasibility/installer-030-20261001-151826-888/bundle/README.md#changes-in-011) — Source-specific evidence and version limits remain in this section.
+  - [Section: scope](../../work/socks-feasibility/installer-030-20261001-151826-888/bundle/README.md#scope) — Source-specific evidence and version limits remain in this section.
+  - [Section: rendering-and-lifetime](../../work/socks-feasibility/installer-030-20261001-151826-888/bundle/README.md#rendering-and-lifetime) — Source-specific evidence and version limits remain in this section.
+  - [Section: verification](../../work/socks-feasibility/installer-030-20261001-151826-888/bundle/README.md#verification) — Source-specific evidence and version limits remain in this section.
+- [Creating mods with SocksSlot](../../work/socks-feasibility/socksslot-installer-20261001-161931-193/bundle/MODDERS.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: mesh-socks](../../work/socks-feasibility/socksslot-installer-20261001-161931-193/bundle/MODDERS.md#mesh-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: texture-only-socks](../../work/socks-feasibility/socksslot-installer-20261001-161931-193/bundle/MODDERS.md#texture-only-socks) — Source-specific evidence and version limits remain in this section.
+- [SocksSlot 0.4.0](../../work/socks-feasibility/socksslot-installer-20261001-161931-193/bundle/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, native-default; builds: gameassembly-237196995381).
+  - [Section: socksslot-040](../../work/socks-feasibility/socksslot-installer-20261001-161931-193/bundle/README.md#socksslot-040) — Source-specific evidence and version limits remain in this section.
+  - [Section: validation-and-limits](../../work/socks-feasibility/socksslot-installer-20261001-161931-193/bundle/README.md#validation-and-limits) — Source-specific evidence and version limits remain in this section.
+- [Creating mods with SocksSlot](../../work/socks-feasibility/socksslot-installer-20261001-162124-867/bundle/MODDERS.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: mesh-socks](../../work/socks-feasibility/socksslot-installer-20261001-162124-867/bundle/MODDERS.md#mesh-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: texture-only-socks](../../work/socks-feasibility/socksslot-installer-20261001-162124-867/bundle/MODDERS.md#texture-only-socks) — Source-specific evidence and version limits remain in this section.
+- [SocksSlot 0.4.0](../../work/socks-feasibility/socksslot-installer-20261001-162124-867/bundle/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, native-default; builds: gameassembly-237196995381).
+  - [Section: socksslot-040](../../work/socks-feasibility/socksslot-installer-20261001-162124-867/bundle/README.md#socksslot-040) — Source-specific evidence and version limits remain in this section.
+  - [Section: validation-and-limits](../../work/socks-feasibility/socksslot-installer-20261001-162124-867/bundle/README.md#validation-and-limits) — Source-specific evidence and version limits remain in this section.
+- [Creating mods with SocksSlot](../../work/socks-feasibility/socksslot-installer-20261001-171759-976/bundle/MODDERS.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: mesh-socks](../../work/socks-feasibility/socksslot-installer-20261001-171759-976/bundle/MODDERS.md#mesh-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: texture-only-socks](../../work/socks-feasibility/socksslot-installer-20261001-171759-976/bundle/MODDERS.md#texture-only-socks) — Source-specific evidence and version limits remain in this section.
+- [SocksSlot 0.4.1](../../work/socks-feasibility/socksslot-installer-20261001-171759-976/bundle/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: socksslot-041](../../work/socks-feasibility/socksslot-installer-20261001-171759-976/bundle/README.md#socksslot-041) — Source-specific evidence and version limits remain in this section.
+  - [Section: validation-and-limits](../../work/socks-feasibility/socksslot-installer-20261001-171759-976/bundle/README.md#validation-and-limits) — Source-specific evidence and version limits remain in this section.
+- [Creating mods with SocksSlot](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/MODDERS.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: mesh-socks](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/MODDERS.md#mesh-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: texture-only-socks](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/MODDERS.md#texture-only-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: verify-before-sharing](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/MODDERS.md#verify-before-sharing) — Source-specific evidence and version limits remain in this section.
+- [SocksSlot 0.5.0](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: socksslot-050](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/README.md#socksslot-050) — Source-specific evidence and version limits remain in this section.
+  - [Section: validation-and-limits](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/README.md#validation-and-limits) — Source-specific evidence and version limits remain in this section.
+- [Starsand Island clothing-slot development findings](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/DEVELOPMENT.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: 5-why-the-original-shoes-made-feet-disappear](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/DEVELOPMENT.md#5-why-the-original-shoes-made-feet-disappear) — Source-specific evidence and version limits remain in this section.
+  - [Section: a-artwork-disappears-while-managed-caches-still-exist](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/DEVELOPMENT.md#a-artwork-disappears-while-managed-caches-still-exist) — Source-specific evidence and version limits remain in this section.
+  - [Section: 7-texture-only-socks-reuse-the-body-shader](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/DEVELOPMENT.md#7-texture-only-socks-reuse-the-body-shader) — Source-specific evidence and version limits remain in this section.
+  - [Section: 7a-male-texture-socks-050](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/DEVELOPMENT.md#7a-male-texture-socks-050) — Source-specific evidence and version limits remain in this section.
+  - [Section: 8-skating-footwear-is-an-interaction-not-an-outfit-selection](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/DEVELOPMENT.md#8-skating-footwear-is-an-interaction-not-an-outfit-selection) — Source-specific evidence and version limits remain in this section.
+- [Creating mods with SocksSlot](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/MODDERS.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: mesh-socks](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/MODDERS.md#mesh-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: texture-only-socks](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/MODDERS.md#texture-only-socks) — Source-specific evidence and version limits remain in this section.
+  - [Section: verify-before-sharing](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/MODDERS.md#verify-before-sharing) — Source-specific evidence and version limits remain in this section.
+- [SocksSlot 0.5.0](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/README.md) — Retained duplicate/snapshot; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, native-default, runtime-reported; builds: gameassembly-237196995381).
+  - [Section: socksslot-050](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/README.md#socksslot-050) — Source-specific evidence and version limits remain in this section.
+  - [Section: validation-and-limits](../../work/socks-feasibility/socksslot-installer-20261001-185515-501/bundle/Source/README.md#validation-and-limits) — Source-specific evidence and version limits remain in this section.
+- [Handoff: restoring cut relationship quests and defining the quest-mail system](../research/cut-content-quest-mail-handoff.md) — Handoff: restoring cut relationship quests and defining the quest-mail system: preserved findings, source scope, and unresolved verification. (historical; evidence: runtime-reported, metadata; builds: unknown).
+  - [Section: handoff-restoring-cut-relationship-quests-and-defining-the-quest-mail-system](../research/cut-content-quest-mail-handoff.md#handoff-restoring-cut-relationship-quests-and-defining-the-quest-mail-system) — Read this section with the record build, evidence and audit limits.
+  - [Section: read-this-first-the-working-hypothesis-changed](../research/cut-content-quest-mail-handoff.md#read-this-first-the-working-hypothesis-changed) — Read this section with the record build, evidence and audit limits.
+  - [Section: evidence-labels](../research/cut-content-quest-mail-handoff.md#evidence-labels) — Read this section with the record build, evidence and audit limits.
+  - [Section: known-runtime-state-before-this-handoff](../research/cut-content-quest-mail-handoff.md#known-runtime-state-before-this-handoff) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-mail-system-already-visible-in-code-and-config](../research/cut-content-quest-mail-handoff.md#the-mail-system-already-visible-in-code-and-config) — Read this section with the record build, evidence and audit limits.
+  - [Section: mail-template-schema](../research/cut-content-quest-mail-handoff.md#mail-template-schema) — Read this section with the record build, evidence and audit limits.
+  - [Section: adding-mail-from-data](../research/cut-content-quest-mail-handoff.md#adding-mail-from-data) — Read this section with the record build, evidence and audit limits.
+  - [Section: runtime-mail-objects-and-ownership](../research/cut-content-quest-mail-handoff.md#runtime-mail-objects-and-ownership) — Read this section with the record build, evidence and audit limits.
+  - [Section: where-mission-activation-probably-occurs](../research/cut-content-quest-mail-handoff.md#where-mission-activation-probably-occurs) — Read this section with the record build, evidence and audit limits.
+  - [Section: mail-content-versus-quest-attachment](../research/cut-content-quest-mail-handoff.md#mail-content-versus-quest-attachment) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-strongest-missing-link-lead-outer-relationship-missions](../research/cut-content-quest-mail-handoff.md#the-strongest-missing-link-lead-outer-relationship-missions) — Read this section with the record build, evidence and audit limits.
+  - [Section: second-missing-link-lead-cnpcaffectionleveltask](../research/cut-content-quest-mail-handoff.md#second-missing-link-lead-cnpcaffectionleveltask) — Read this section with the record build, evidence and audit limits.
+  - [Section: related-but-distinct-npcaffectionstarupentries](../research/cut-content-quest-mail-handoff.md#related-but-distinct-npcaffectionstarupentries) — Read this section with the record build, evidence and audit limits.
+  - [Section: exact-lv2lv4-quest-mail-inventory](../research/cut-content-quest-mail-handoff.md#exact-lv2lv4-quest-mail-inventory) — Read this section with the record build, evidence and audit limits.
+  - [Section: lv2](../research/cut-content-quest-mail-handoff.md#lv2) — Read this section with the record build, evidence and audit limits.
+  - [Section: lv4](../research/cut-content-quest-mail-handoff.md#lv4) — Read this section with the record build, evidence and audit limits.
+  - [Section: recommended-first-target](../research/cut-content-quest-mail-handoff.md#recommended-first-target) — Read this section with the record build, evidence and audit limits.
+  - [Section: minimum-experiment-plan](../research/cut-content-quest-mail-handoff.md#minimum-experiment-plan) — Read this section with the record build, evidence and audit limits.
+  - [Section: experiment-1--establish-when-a-quest-mail-starts-its-mission](../research/cut-content-quest-mail-handoff.md#experiment-1--establish-when-a-quest-mail-starts-its-mission) — Read this section with the record build, evidence and audit limits.
+  - [Section: experiment-2--isolate-mail-delivery-from-mission-health](../research/cut-content-quest-mail-handoff.md#experiment-2--isolate-mail-delivery-from-mission-health) — Read this section with the record build, evidence and audit limits.
+  - [Section: experiment-3--test-the-outer-watcher-mission](../research/cut-content-quest-mail-handoff.md#experiment-3--test-the-outer-watcher-mission) — Read this section with the record build, evidence and audit limits.
+  - [Section: experiment-4--test-cnpcaffectionleveltask](../research/cut-content-quest-mail-handoff.md#experiment-4--test-cnpcaffectionleveltask) — Read this section with the record build, evidence and audit limits.
+  - [Section: experiment-5--only-then-test-an-automatic-restoration-patch](../research/cut-content-quest-mail-handoff.md#experiment-5--only-then-test-an-automatic-restoration-patch) — Read this section with the record build, evidence and audit limits.
+  - [Section: direct-call-fallback-if-operator-execution-is-awkward](../research/cut-content-quest-mail-handoff.md#direct-call-fallback-if-operator-execution-is-awkward) — Read this section with the record build, evidence and audit limits.
+  - [Section: mission-start-facts-already-established](../research/cut-content-quest-mail-handoff.md#mission-start-facts-already-established) — Read this section with the record build, evidence and audit limits.
+  - [Section: failure-controls-and-save-safety](../research/cut-content-quest-mail-handoff.md#failure-controls-and-save-safety) — Read this section with the record build, evidence and audit limits.
+  - [Section: what-not-to-retry-without-new-evidence](../research/cut-content-quest-mail-handoff.md#what-not-to-retry-without-new-evidence) — Read this section with the record build, evidence and audit limits.
+  - [Section: key-paths](../research/cut-content-quest-mail-handoff.md#key-paths) — Read this section with the record build, evidence and audit limits.
+  - [Section: handoff-sources](../research/cut-content-quest-mail-handoff.md#handoff-sources) — Read this section with the record build, evidence and audit limits.
+  - [Section: baseline-system-documents](../research/cut-content-quest-mail-handoff.md#baseline-system-documents) — Read this section with the record build, evidence and audit limits.
+  - [Section: mail-config](../research/cut-content-quest-mail-handoff.md#mail-config) — Read this section with the record build, evidence and audit limits.
+  - [Section: mail-runtime](../research/cut-content-quest-mail-handoff.md#mail-runtime) — Read this section with the record build, evidence and audit limits.
+  - [Section: affection-level-runtime](../research/cut-content-quest-mail-handoff.md#affection-level-runtime) — Read this section with the record build, evidence and audit limits.
+  - [Section: first-test-target](../research/cut-content-quest-mail-handoff.md#first-test-target) — Read this section with the record build, evidence and audit limits.
+  - [Section: deliverables-expected-from-the-next-instance](../research/cut-content-quest-mail-handoff.md#deliverables-expected-from-the-next-instance) — Read this section with the record build, evidence and audit limits.
+  - [Section: suggested-opening-prompt-for-the-next-instance](../research/cut-content-quest-mail-handoff.md#suggested-opening-prompt-for-the-next-instance) — Read this section with the record build, evidence and audit limits.
+- [Foundations for future Starsand Island mods](../research/mod-foundation-gaps.md) — Foundations for future Starsand Island mods: preserved findings, source scope, and unresolved verification. (historical; evidence: native-default, extracted-data; builds: unknown).
+

@@ -1,0 +1,239 @@
+# Umovie
+
+Topic `umovie`. Aliases: none. Scan date: 2026-10-02.
+
+[All topics](../TOPICS.md) · [Coverage](../_meta/COVERAGE.md)
+
+## Maintained reference
+
+- [Starsand Island — animation, rigs and facial expression](../systems/animation.md) — Starsand Island — animation, rigs and facial expression: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: starsand-island--animation-rigs-and-facial-expression](../systems/animation.md#starsand-island--animation-rigs-and-facial-expression) — Read this section with the record build, evidence and audit limits.
+  - [Section: a1-there-is-no-single-facial-animation-system](../systems/animation.md#a1-there-is-no-single-facial-animation-system) — Read this section with the record build, evidence and audit limits.
+  - [Section: a2-rigs-and-the-animationmap--the-core-mechanism](../systems/animation.md#a2-rigs-and-the-animationmap--the-core-mechanism) — Read this section with the record build, evidence and audit limits.
+  - [Section: f1_-is-the-canonical-authoring-namespace](../systems/animation.md#f1_-is-the-canonical-authoring-namespace) — Read this section with the record build, evidence and audit limits.
+  - [Section: this-explains-the-m5-anomaly](../systems/animation.md#this-explains-the-m5-anomaly) — Read this section with the record build, evidence and audit limits.
+  - [Section: a3-player-major-npc-minor-npc-crowd](../systems/animation.md#a3-player-major-npc-minor-npc-crowd) — Read this section with the record build, evidence and audit limits.
+  - [Section: a4-rig-prefixes-are-build-codes-not-gender](../systems/animation.md#a4-rig-prefixes-are-build-codes-not-gender) — Read this section with the record build, evidence and audit limits.
+  - [Section: a5-dialogue-is-the-highest-volume-expression-channel](../systems/animation.md#a5-dialogue-is-the-highest-volume-expression-channel) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-playernpc-split-shows-in-the-data](../systems/animation.md#the-playernpc-split-shows-in-the-data) — Read this section with the record build, evidence and audit limits.
+  - [Section: asset-backings-overlap--they-are-not-two-exclusive-types](../systems/animation.md#asset-backings-overlap--they-are-not-two-exclusive-types) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-animator-has-a-dedicated-face-layer](../systems/animation.md#the-animator-has-a-dedicated-face-layer) — Read this section with the record build, evidence and audit limits.
+  - [Section: a6-emoji--emotes-and-autonomous-npc-reactions](../systems/animation.md#a6-emoji--emotes-and-autonomous-npc-reactions) — Read this section with the record build, evidence and audit limits.
+  - [Section: a7-cutscene-animation-umovie](../systems/animation.md#a7-cutscene-animation-umovie) — Read this section with the record build, evidence and audit limits.
+  - [Section: a8-face-customization-and-makeup](../systems/animation.md#a8-face-customization-and-makeup) — Read this section with the record build, evidence and audit limits.
+  - [Section: a9-scale](../systems/animation.md#a9-scale) — Read this section with the record build, evidence and audit limits.
+  - [Section: a10-open](../systems/animation.md#a10-open) — Read this section with the record build, evidence and audit limits.
+- [Starsand Island — the Performance system (cutscenes)](../systems/performance.md) — Starsand Island — the Performance system (cutscenes): preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: starsand-island--the-performance-system-cutscenes](../systems/performance.md#starsand-island--the-performance-system-cutscenes) — Read this section with the record build, evidence and audit limits.
+  - [Section: p1-the-config-is-a-four-field-pointer-all-content-lives-in-a-unity-timeline-prefab](../systems/performance.md#p1-the-config-is-a-four-field-pointer-all-content-lives-in-a-unity-timeline-prefab) — Read this section with the record build, evidence and audit limits.
+  - [Section: prefab-paths](../systems/performance.md#prefab-paths) — Read this section with the record build, evidence and audit limits.
+  - [Section: verified-against-the-asset-index](../systems/performance.md#verified-against-the-asset-index) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-unreferenced-timeline-prefabs--20-shipped-cutscenes-no-config-points-at](../systems/performance.md#the-unreferenced-timeline-prefabs--20-shipped-cutscenes-no-config-points-at) — Read this section with the record build, evidence and audit limits.
+  - [Section: three-of-the-eleven-discarded-configs-still-have-their-prefabs](../systems/performance.md#three-of-the-eleven-discarded-configs-still-have-their-prefabs) — Read this section with the record build, evidence and audit limits.
+  - [Section: p2-entry-points--how-a-performance-is-invoked](../systems/performance.md#p2-entry-points--how-a-performance-is-invoked) — Read this section with the record build, evidence and audit limits.
+  - [Section: p3-the-track-vocabulary--16-timeline-track-types](../systems/performance.md#p3-the-track-vocabulary--16-timeline-track-types) — Read this section with the record build, evidence and audit limits.
+  - [Section: p4-cutscenes-can-carry-their-own-dialogue-and-their-own-branching](../systems/performance.md#p4-cutscenes-can-carry-their-own-dialogue-and-their-own-branching) — Read this section with the record build, evidence and audit limits.
+  - [Section: how-cutscene-dialogue-is-actually-delivered](../systems/performance.md#how-cutscene-dialogue-is-actually-delivered) — Read this section with the record build, evidence and audit limits.
+  - [Section: p5-how-a-cutscene-binds-the-player--two-independent-gender-paths](../systems/performance.md#p5-how-a-cutscene-binds-the-player--two-independent-gender-paths) — Read this section with the record build, evidence and audit limits.
+  - [Section: p6-animation-machinery-specific-to-cutscenes](../systems/performance.md#p6-animation-machinery-specific-to-cutscenes) — Read this section with the record build, evidence and audit limits.
+  - [Section: 14-suppression-handles](../systems/performance.md#14-suppression-handles) — Read this section with the record build, evidence and audit limits.
+  - [Section: p7-cutscene-subtitles-are-a-separate-four-language-table](../systems/performance.md#p7-cutscene-subtitles-are-a-separate-four-language-table) — Read this section with the record build, evidence and audit limits.
+  - [Section: p8-defects-and-dead-content](../systems/performance.md#p8-defects-and-dead-content) — Read this section with the record build, evidence and audit limits.
+  - [Section: confirmed-content-defects](../systems/performance.md#confirmed-content-defects) — Read this section with the record build, evidence and audit limits.
+  - [Section: six-ungated-single-gender-cutscene-call-sites--see-p11-for-the-evidence-and-the-caveat](../systems/performance.md#six-ungated-single-gender-cutscene-call-sites--see-p11-for-the-evidence-and-the-caveat) — Read this section with the record build, evidence and audit limits.
+  - [Section: orphans-config-never-referenced--8](../systems/performance.md#orphans-config-never-referenced--8) — Read this section with the record build, evidence and audit limits.
+  - [Section: p9-relationship-to-umovie--parallel-not-layered](../systems/performance.md#p9-relationship-to-umovie--parallel-not-layered) — Read this section with the record build, evidence and audit limits.
+  - [Section: p10-cutscenes-have-a-network-sync-path](../systems/performance.md#p10-cutscenes-have-a-network-sync-path) — Read this section with the record build, evidence and audit limits.
+  - [Section: p11-the-timeline-export-tree--cutscene-animation-is-authored-per-rig](../systems/performance.md#p11-the-timeline-export-tree--cutscene-animation-is-authored-per-rig) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-finding-both-player-rigs-have-their-own-hand-authored-clips](../systems/performance.md#the-finding-both-player-rigs-have-their-own-hand-authored-clips) — Read this section with the record build, evidence and audit limits.
+  - [Section: a-better-test-for-is-this-cutscene-gender-specific](../systems/performance.md#a-better-test-for-is-this-cutscene-gender-specific) — Read this section with the record build, evidence and audit limits.
+  - [Section: three-detection-methods-none-of-them-sufficient-alone](../systems/performance.md#three-detection-methods-none-of-them-sufficient-alone) — Read this section with the record build, evidence and audit limits.
+  - [Section: five-configs-share-a-prefab-with-another-config](../systems/performance.md#five-configs-share-a-prefab-with-another-config) — Read this section with the record build, evidence and audit limits.
+  - [Section: seven-ungated-single-gender-cutscene-call-sites--all-test-candidates-none-confirmed](../systems/performance.md#seven-ungated-single-gender-cutscene-call-sites--all-test-candidates-none-confirmed) — Read this section with the record build, evidence and audit limits.
+  - [Section: p12-first-meeting-初见-cutscenes-are-a-distinct-much-heavier-class](../systems/performance.md#p12-first-meeting-初见-cutscenes-are-a-distinct-much-heavier-class) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-prefab-to-source-alias-table](../systems/performance.md#the-prefab-to-source-alias-table) — Read this section with the record build, evidence and audit limits.
+  - [Section: camera-work--confirmed-and-it-is-the-clearest-separator](../systems/performance.md#camera-work--confirmed-and-it-is-the-clearest-separator) — Read this section with the record build, evidence and audit limits.
+  - [Section: total-bespoke-source-footprint](../systems/performance.md#total-bespoke-source-footprint) — Read this section with the record build, evidence and audit limits.
+  - [Section: purpose-built-geometry](../systems/performance.md#purpose-built-geometry) — Read this section with the record build, evidence and audit limits.
+  - [Section: refinement-to-the-premise-it-is-not-exotic-actors](../systems/performance.md#refinement-to-the-premise-it-is-not-exotic-actors) — Read this section with the record build, evidence and audit limits.
+  - [Section: 34-source-groups-belong-to-no-shipped-config--including-three-that-were-deliberately-blanked](../systems/performance.md#34-source-groups-belong-to-no-shipped-config--including-three-that-were-deliberately-blanked) — Read this section with the record build, evidence and audit limits.
+  - [Section: p13-open](../systems/performance.md#p13-open) — Read this section with the record build, evidence and audit limits.
+- [Starsand Island — runtime code loading and hot patching](../systems/runtime-patching.md) — Starsand Island — runtime code loading and hot patching: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: starsand-island--runtime-code-loading-and-hot-patching](../systems/runtime-patching.md#starsand-island--runtime-code-loading-and-hot-patching) — Read this section with the record build, evidence and audit limits.
+  - [Section: h1-two-frameworks-not-one](../systems/runtime-patching.md#h1-two-frameworks-not-one) — Read this section with the record build, evidence and audit limits.
+  - [Section: h2-the-boot-chain--gameshelldll](../systems/runtime-patching.md#h2-the-boot-chain--gameshelldll) — Read this section with the record build, evidence and audit limits.
+  - [Section: h3-what-each-framework-can-do](../systems/runtime-patching.md#h3-what-each-framework-can-do) — Read this section with the record build, evidence and audit limits.
+  - [Section: ifix--ifixcore-27-files](../systems/runtime-patching.md#ifix--ifixcore-27-files) — Read this section with the record build, evidence and audit limits.
+  - [Section: hybridclr--hybridclrruntime-8-files](../systems/runtime-patching.md#hybridclr--hybridclrruntime-8-files) — Read this section with the record build, evidence and audit limits.
+  - [Section: h4-scale-of-instrumentation](../systems/runtime-patching.md#h4-scale-of-instrumentation) — Read this section with the record build, evidence and audit limits.
+  - [Section: h5-assembly-csharp-is-absent-from-the-decompile](../systems/runtime-patching.md#h5-assembly-csharp-is-absent-from-the-decompile) — Read this section with the record build, evidence and audit limits.
+  - [Section: h6-no-patch-payload-is-present-here](../systems/runtime-patching.md#h6-no-patch-payload-is-present-here) — Read this section with the record build, evidence and audit limits.
+  - [Section: h7-relevance-to-modding--and-what-is-unproven](../systems/runtime-patching.md#h7-relevance-to-modding--and-what-is-unproven) — Read this section with the record build, evidence and audit limits.
+  - [Section: h8-corrections-owed-to-dllmapping_preliminarytxt](../systems/runtime-patching.md#h8-corrections-owed-to-dllmapping_preliminarytxt) — Read this section with the record build, evidence and audit limits.
+  - [Section: h9-open](../systems/runtime-patching.md#h9-open) — Read this section with the record build, evidence and audit limits.
+  - [Section: current-integration-scope](../systems/runtime-patching.md#current-integration-scope) — Read this section with the record build, evidence and audit limits.
+
+## Formats and modding contracts
+
+- [Adding a cutscene — what the shipped data makes possible](../modding/cutscene-authoring.md) — Adding a cutscene — what the shipped data makes possible: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: adding-a-cutscene--what-the-shipped-data-makes-possible](../modding/cutscene-authoring.md#adding-a-cutscene--what-the-shipped-data-makes-possible) — Read this section with the record build, evidence and audit limits.
+  - [Section: m1-the-short-answer](../modding/cutscene-authoring.md#m1-the-short-answer) — Read this section with the record build, evidence and audit limits.
+  - [Section: m2-the-shape-of-a-working-cutscene-mission](../modding/cutscene-authoring.md#m2-the-shape-of-a-working-cutscene-mission) — Read this section with the record build, evidence and audit limits.
+  - [Section: m3-triggering-and-conditions](../modding/cutscene-authoring.md#m3-triggering-and-conditions) — Read this section with the record build, evidence and audit limits.
+  - [Section: how-a-mission-starts](../modding/cutscene-authoring.md#how-a-mission-starts) — Read this section with the record build, evidence and audit limits.
+  - [Section: condition-vocabulary](../modding/cutscene-authoring.md#condition-vocabulary) — Read this section with the record build, evidence and audit limits.
+  - [Section: m4-authoring-the-cutscene-itself--the-blocker](../modding/cutscene-authoring.md#m4-authoring-the-cutscene-itself--the-blocker) — Read this section with the record build, evidence and audit limits.
+  - [Section: m4a-20-built-cutscenes-ship-that-nothing-plays](../modding/cutscene-authoring.md#m4a-20-built-cutscenes-ship-that-nothing-plays) — Read this section with the record build, evidence and audit limits.
+  - [Section: m5-dialogue-and-animation-during-the-scene](../modding/cutscene-authoring.md#m5-dialogue-and-animation-during-the-scene) — Read this section with the record build, evidence and audit limits.
+  - [Section: m6-ending-the-scene](../modding/cutscene-authoring.md#m6-ending-the-scene) — Read this section with the record build, evidence and audit limits.
+  - [Section: m7-registering-it-as-watched](../modding/cutscene-authoring.md#m7-registering-it-as-watched) — Read this section with the record build, evidence and audit limits.
+  - [Section: m8-the-realistic-route--stage-it-without-timeline](../modding/cutscene-authoring.md#m8-the-realistic-route--stage-it-without-timeline) — Read this section with the record build, evidence and audit limits.
+  - [Section: m8a-a-separate-bepinex-route-for-custom-animation-clips](../modding/cutscene-authoring.md#m8a-a-separate-bepinex-route-for-custom-animation-clips) — Read this section with the record build, evidence and audit limits.
+  - [Section: m9-open-and-what-would-settle-it](../modding/cutscene-authoring.md#m9-open-and-what-would-settle-it) — Read this section with the record build, evidence and audit limits.
+
+## Audit corrections
+
+- [Verification report: `animation.md`](../audits/2026-09-01-animationsystem-verification-report.md) — Verification report: `animation.md`: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: verification-report-animationmd](../audits/2026-09-01-animationsystem-verification-report.md#verification-report-animationmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: executive-verdict](../audits/2026-09-01-animationsystem-verification-report.md#executive-verdict) — Read this section with the record build, evidence and audit limits.
+  - [Section: verdict-ledger](../audits/2026-09-01-animationsystem-verification-report.md#verdict-ledger) — Read this section with the record build, evidence and audit limits.
+  - [Section: evidence-boundary-and-method](../audits/2026-09-01-animationsystem-verification-report.md#evidence-boundary-and-method) — Read this section with the record build, evidence and audit limits.
+  - [Section: a1--mechanism-model](../audits/2026-09-01-animationsystem-verification-report.md#a1--mechanism-model) — Read this section with the record build, evidence and audit limits.
+  - [Section: verdict-confirmed-with-correction](../audits/2026-09-01-animationsystem-verification-report.md#verdict-confirmed-with-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: a2--rigs-and-animationmap](../audits/2026-09-01-animationsystem-verification-report.md#a2--rigs-and-animationmap) — Read this section with the record build, evidence and audit limits.
+  - [Section: rig-clip-population](../audits/2026-09-01-animationsystem-verification-report.md#rig-clip-population) — Read this section with the record build, evidence and audit limits.
+  - [Section: map-populations](../audits/2026-09-01-animationsystem-verification-report.md#map-populations) — Read this section with the record build, evidence and audit limits.
+  - [Section: robot-correction](../audits/2026-09-01-animationsystem-verification-report.md#robot-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: m5-qualification](../audits/2026-09-01-animationsystem-verification-report.md#m5-qualification) — Read this section with the record build, evidence and audit limits.
+  - [Section: a3--entity-composition-and-tiers](../audits/2026-09-01-animationsystem-verification-report.md#a3--entity-composition-and-tiers) — Read this section with the record build, evidence and audit limits.
+  - [Section: confirmed-structure](../audits/2026-09-01-animationsystem-verification-report.md#confirmed-structure) — Read this section with the record build, evidence and audit limits.
+  - [Section: tier-table-correction](../audits/2026-09-01-animationsystem-verification-report.md#tier-table-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: a4--rig-prefixes-and-gender](../audits/2026-09-01-animationsystem-verification-report.md#a4--rig-prefixes-and-gender) — Read this section with the record build, evidence and audit limits.
+  - [Section: verdict-core-warning-confirmed-build-meanings-inferred](../audits/2026-09-01-animationsystem-verification-report.md#verdict-core-warning-confirmed-build-meanings-inferred) — Read this section with the record build, evidence and audit limits.
+  - [Section: a5--dialogue-animation](../audits/2026-09-01-animationsystem-verification-report.md#a5--dialogue-animation) — Read this section with the record build, evidence and audit limits.
+  - [Section: correct-volumes](../audits/2026-09-01-animationsystem-verification-report.md#correct-volumes) — Read this section with the record build, evidence and audit limits.
+  - [Section: rig-and-tag-corrections](../audits/2026-09-01-animationsystem-verification-report.md#rig-and-tag-corrections) — Read this section with the record build, evidence and audit limits.
+  - [Section: asset-matching-correction](../audits/2026-09-01-animationsystem-verification-report.md#asset-matching-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: face-handle-and-operator-behavior](../audits/2026-09-01-animationsystem-verification-report.md#face-handle-and-operator-behavior) — Read this section with the record build, evidence and audit limits.
+  - [Section: a6--emoji](../audits/2026-09-01-animationsystem-verification-report.md#a6--emoji) — Read this section with the record build, evidence and audit limits.
+  - [Section: config-and-declarations](../audits/2026-09-01-animationsystem-verification-report.md#config-and-declarations) — Read this section with the record build, evidence and audit limits.
+  - [Section: capability-versus-shipped-use](../audits/2026-09-01-animationsystem-verification-report.md#capability-versus-shipped-use) — Read this section with the record build, evidence and audit limits.
+  - [Section: asset-predicates-and-shared-naming-ecosystem](../audits/2026-09-01-animationsystem-verification-report.md#asset-predicates-and-shared-naming-ecosystem) — Read this section with the record build, evidence and audit limits.
+  - [Section: a7--umovie](../audits/2026-09-01-animationsystem-verification-report.md#a7--umovie) — Read this section with the record build, evidence and audit limits.
+  - [Section: type-correction](../audits/2026-09-01-animationsystem-verification-report.md#type-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: assembly-and-use-correction](../audits/2026-09-01-animationsystem-verification-report.md#assembly-and-use-correction) — Read this section with the record build, evidence and audit limits.
+  - [Section: a8--face-customization-makeup-and-materials](../audits/2026-09-01-animationsystem-verification-report.md#a8--face-customization-makeup-and-materials) — Read this section with the record build, evidence and audit limits.
+  - [Section: a9--scale](../audits/2026-09-01-animationsystem-verification-report.md#a9--scale) — Read this section with the record build, evidence and audit limits.
+  - [Section: a10--revised-open-register](../audits/2026-09-01-animationsystem-verification-report.md#a10--revised-open-register) — Read this section with the record build, evidence and audit limits.
+  - [Section: reproducibility](../audits/2026-09-01-animationsystem-verification-report.md#reproducibility) — Read this section with the record build, evidence and audit limits.
+- [Face-animation fellow-modder evidence — documentation curation review](../audits/2026-09-01-face-animation-modder-evidence-review.md) — Face-animation fellow-modder evidence — documentation curation review: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data, runtime-reported; builds: unknown).
+  - [Section: face-animation-fellow-modder-evidence--documentation-curation-review](../audits/2026-09-01-face-animation-modder-evidence-review.md#face-animation-fellow-modder-evidence--documentation-curation-review) — Read this section with the record build, evidence and audit limits.
+  - [Section: result](../audits/2026-09-01-face-animation-modder-evidence-review.md#result) — Read this section with the record build, evidence and audit limits.
+  - [Section: evidence-boundary](../audits/2026-09-01-face-animation-modder-evidence-review.md#evidence-boundary) — Read this section with the record build, evidence and audit limits.
+  - [Section: what-should-be-added-to-animationmd](../audits/2026-09-01-face-animation-modder-evidence-review.md#what-should-be-added-to-animationmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: 1-the-body-maps-are-only-half-of-the-remapping-architecture](../audits/2026-09-01-face-animation-modder-evidence-review.md#1-the-body-maps-are-only-half-of-the-remapping-architecture) — Read this section with the record build, evidence and audit limits.
+  - [Section: 2-add-a-scoped-face-rig-model-not-a-game-wide-generalization](../audits/2026-09-01-face-animation-modder-evidence-review.md#2-add-a-scoped-face-rig-model-not-a-game-wide-generalization) — Read this section with the record build, evidence and audit limits.
+  - [Section: 3-refine-the-blendshape-wording-in-a7](../audits/2026-09-01-face-animation-modder-evidence-review.md#3-refine-the-blendshape-wording-in-a7) — Read this section with the record build, evidence and audit limits.
+  - [Section: 4-narrow-a10](../audits/2026-09-01-face-animation-modder-evidence-review.md#4-narrow-a10) — Read this section with the record build, evidence and audit limits.
+  - [Section: what-should-be-added-to-moddingcutscenemd](../audits/2026-09-01-face-animation-modder-evidence-review.md#what-should-be-added-to-moddingcutscenemd) — Read this section with the record build, evidence and audit limits.
+  - [Section: what-should-not-be-added](../audits/2026-09-01-face-animation-modder-evidence-review.md#what-should-not-be-added) — Read this section with the record build, evidence and audit limits.
+  - [Section: existing-documentation-defects-found-on-reread](../audits/2026-09-01-face-animation-modder-evidence-review.md#existing-documentation-defects-found-on-reread) — Read this section with the record build, evidence and audit limits.
+  - [Section: animationmd](../audits/2026-09-01-face-animation-modder-evidence-review.md#animationmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: dialoguesystemmd](../audits/2026-09-01-face-animation-modder-evidence-review.md#dialoguesystemmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: moddingcutscenemd](../audits/2026-09-01-face-animation-modder-evidence-review.md#moddingcutscenemd) — Read this section with the record build, evidence and audit limits.
+  - [Section: performancesystemmd](../audits/2026-09-01-face-animation-modder-evidence-review.md#performancesystemmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: verification-artifacts](../audits/2026-09-01-face-animation-modder-evidence-review.md#verification-artifacts) — Read this section with the record build, evidence and audit limits.
+- [`performancesystem.md` verification audit](../audits/2026-09-01-performancesystem-verification-report.md) — `performancesystem.md` verification audit: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: performancesystemmd-verification-audit](../audits/2026-09-01-performancesystem-verification-report.md#performancesystemmd-verification-audit) — Read this section with the record build, evidence and audit limits.
+  - [Section: overall-verdict](../audits/2026-09-01-performancesystem-verification-report.md#overall-verdict) — Read this section with the record build, evidence and audit limits.
+  - [Section: evidence-boundary-and-missing-dependencies](../audits/2026-09-01-performancesystem-verification-report.md#evidence-boundary-and-missing-dependencies) — Read this section with the record build, evidence and audit limits.
+  - [Section: p1--configuration-and-prefab-indirection](../audits/2026-09-01-performancesystem-verification-report.md#p1--configuration-and-prefab-indirection) — Read this section with the record build, evidence and audit limits.
+  - [Section: confirmed](../audits/2026-09-01-performancesystem-verification-report.md#confirmed) — Read this section with the record build, evidence and audit limits.
+  - [Section: corrections-and-qualifications](../audits/2026-09-01-performancesystem-verification-report.md#corrections-and-qualifications) — Read this section with the record build, evidence and audit limits.
+  - [Section: p2--invocation-paths](../audits/2026-09-01-performancesystem-verification-report.md#p2--invocation-paths) — Read this section with the record build, evidence and audit limits.
+  - [Section: p3p6--timeline-framework-dialogueoptions-actor-binding-and-animation](../audits/2026-09-01-performancesystem-verification-report.md#p3p6--timeline-framework-dialogueoptions-actor-binding-and-animation) — Read this section with the record build, evidence and audit limits.
+  - [Section: confirmed-framework-surface](../audits/2026-09-01-performancesystem-verification-report.md#confirmed-framework-surface) — Read this section with the record build, evidence and audit limits.
+  - [Section: field-set-corrections](../audits/2026-09-01-performancesystem-verification-report.md#field-set-corrections) — Read this section with the record build, evidence and audit limits.
+  - [Section: behavior-and-shipped-use-boundary](../audits/2026-09-01-performancesystem-verification-report.md#behavior-and-shipped-use-boundary) — Read this section with the record build, evidence and audit limits.
+  - [Section: p5--mission-level-gender-paths](../audits/2026-09-01-performancesystem-verification-report.md#p5--mission-level-gender-paths) — Read this section with the record build, evidence and audit limits.
+  - [Section: p7--performance-subtitles-and-localized-audio](../audits/2026-09-01-performancesystem-verification-report.md#p7--performance-subtitles-and-localized-audio) — Read this section with the record build, evidence and audit limits.
+  - [Section: p8--defects-and-dead-content](../audits/2026-09-01-performancesystem-verification-report.md#p8--defects-and-dead-content) — Read this section with the record build, evidence and audit limits.
+  - [Section: confirmed-static-findings](../audits/2026-09-01-performancesystem-verification-report.md#confirmed-static-findings) — Read this section with the record build, evidence and audit limits.
+  - [Section: p9--performance-and-umovie](../audits/2026-09-01-performancesystem-verification-report.md#p9--performance-and-umovie) — Read this section with the record build, evidence and audit limits.
+  - [Section: p10--network-synchronization](../audits/2026-09-01-performancesystem-verification-report.md#p10--network-synchronization) — Read this section with the record build, evidence and audit limits.
+  - [Section: p11--exported-timeline-animation-and-rig-evidence](../audits/2026-09-01-performancesystem-verification-report.md#p11--exported-timeline-animation-and-rig-evidence) — Read this section with the record build, evidence and audit limits.
+  - [Section: confirmed-aggregate-results](../audits/2026-09-01-performancesystem-verification-report.md#confirmed-aggregate-results) — Read this section with the record build, evidence and audit limits.
+  - [Section: corrections](../audits/2026-09-01-performancesystem-verification-report.md#corrections) — Read this section with the record build, evidence and audit limits.
+  - [Section: ungated-call-finding](../audits/2026-09-01-performancesystem-verification-report.md#ungated-call-finding) — Read this section with the record build, evidence and audit limits.
+  - [Section: p12--first-meeting-scenes](../audits/2026-09-01-performancesystem-verification-report.md#p12--first-meeting-scenes) — Read this section with the record build, evidence and audit limits.
+  - [Section: p13--open-items](../audits/2026-09-01-performancesystem-verification-report.md#p13--open-items) — Read this section with the record build, evidence and audit limits.
+  - [Section: recommended-status-by-section](../audits/2026-09-01-performancesystem-verification-report.md#recommended-status-by-section) — Read this section with the record build, evidence and audit limits.
+  - [Section: reproduction-artifact](../audits/2026-09-01-performancesystem-verification-report.md#reproduction-artifact) — Read this section with the record build, evidence and audit limits.
+- [Delta report: new modding knowledge from the 2026-09-07 field notes](../audits/2026-09-08-modding-findings-delta-report.md) — Delta report: new modding knowledge from the 2026-09-07 field notes: preserved findings, source scope, and unresolved verification. (current; evidence: metadata, extracted-data, runtime-reported; builds: unknown).
+  - [Section: delta-report-new-modding-knowledge-from-the-2026-09-07-field-notes](../audits/2026-09-08-modding-findings-delta-report.md#delta-report-new-modding-knowledge-from-the-2026-09-07-field-notes) — Read this section with the record build, evidence and audit limits.
+  - [Section: 1-executive-summary](../audits/2026-09-08-modding-findings-delta-report.md#1-executive-summary) — Read this section with the record build, evidence and audit limits.
+  - [Section: 2-evidence-and-status-rules-used-in-this-report](../audits/2026-09-08-modding-findings-delta-report.md#2-evidence-and-status-rules-used-in-this-report) — Read this section with the record build, evidence and audit limits.
+  - [Section: 3-high-value-changes-to-the-baseline](../audits/2026-09-08-modding-findings-delta-report.md#3-high-value-changes-to-the-baseline) — Read this section with the record build, evidence and audit limits.
+  - [Section: 31-runtime-json-registration-hypothesis-becomes-a-reported-working-path](../audits/2026-09-08-modding-findings-delta-report.md#31-runtime-json-registration-hypothesis-becomes-a-reported-working-path) — Read this section with the record build, evidence and audit limits.
+  - [Section: 32-missions-load-from-plain-json](../audits/2026-09-08-modding-findings-delta-report.md#32-missions-load-from-plain-json) — Read this section with the record build, evidence and audit limits.
+  - [Section: 33-starting-a-mission-on-the-player](../audits/2026-09-08-modding-findings-delta-report.md#33-starting-a-mission-on-the-player) — Read this section with the record build, evidence and audit limits.
+  - [Section: 4-new-sceneplot--event-dialogue-staging-knowledge](../audits/2026-09-08-modding-findings-delta-report.md#4-new-sceneplot--event-dialogue-staging-knowledge) — Read this section with the record build, evidence and audit limits.
+  - [Section: 41-dialogue-participation-and-physical-placement-are-separate](../audits/2026-09-08-modding-findings-delta-report.md#41-dialogue-participation-and-physical-placement-are-separate) — Read this section with the record build, evidence and audit limits.
+  - [Section: 42-speaker-slot-binding-beyond-source-and-target](../audits/2026-09-08-modding-findings-delta-report.md#42-speaker-slot-binding-beyond-source-and-target) — Read this section with the record build, evidence and audit limits.
+  - [Section: 43-actor-schedule-and-interaction-control](../audits/2026-09-08-modding-findings-delta-report.md#43-actor-schedule-and-interaction-control) — Read this section with the record build, evidence and audit limits.
+  - [Section: 44-what-the-borrowed-plot-prefab-actually-places](../audits/2026-09-08-modding-findings-delta-report.md#44-what-the-borrowed-plot-prefab-actually-places) — Read this section with the record build, evidence and audit limits.
+  - [Section: 45-placement-methods](../audits/2026-09-08-modding-findings-delta-report.md#45-placement-methods) — Read this section with the record build, evidence and audit limits.
+  - [Section: 46-position-groups-and-cameras](../audits/2026-09-08-modding-findings-delta-report.md#46-position-groups-and-cameras) — Read this section with the record build, evidence and audit limits.
+  - [Section: 47-facing-control](../audits/2026-09-08-modding-findings-delta-report.md#47-facing-control) — Read this section with the record build, evidence and audit limits.
+  - [Section: 5-dialogue-and-condition-system-refinements](../audits/2026-09-08-modding-findings-delta-report.md#5-dialogue-and-condition-system-refinements) — Read this section with the record build, evidence and audit limits.
+  - [Section: 51-missionphasedialogstate-is-not-an-event-launcher](../audits/2026-09-08-modding-findings-delta-report.md#51-missionphasedialogstate-is-not-an-event-launcher) — Read this section with the record build, evidence and audit limits.
+  - [Section: 52-serialized-versus-live-controller-objects](../audits/2026-09-08-modding-findings-delta-report.md#52-serialized-versus-live-controller-objects) — Read this section with the record build, evidence and audit limits.
+  - [Section: 53-event-objects-are-notifications-not-commands](../audits/2026-09-08-modding-findings-delta-report.md#53-event-objects-are-notifications-not-commands) — Read this section with the record build, evidence and audit limits.
+  - [Section: 54-data-stores-must-be-paired-correctly](../audits/2026-09-08-modding-findings-delta-report.md#54-data-stores-must-be-paired-correctly) — Read this section with the record build, evidence and audit limits.
+  - [Section: 55-time-controller-placement](../audits/2026-09-08-modding-findings-delta-report.md#55-time-controller-placement) — Read this section with the record build, evidence and audit limits.
+  - [Section: 6-poi-system-from-structural-map-to-live-diagnostic-workflow](../audits/2026-09-08-modding-findings-delta-report.md#6-poi-system-from-structural-map-to-live-diagnostic-workflow) — Read this section with the record build, evidence and audit limits.
+  - [Section: attachment-reported-verified-or-directly-observed](../audits/2026-09-08-modding-findings-delta-report.md#attachment-reported-verified-or-directly-observed) — Read this section with the record build, evidence and audit limits.
+  - [Section: inferredpartial-operational-rules](../audits/2026-09-08-modding-findings-delta-report.md#inferredpartial-operational-rules) — Read this section with the record build, evidence and audit limits.
+  - [Section: 7-world-lookup-and-transform-handling](../audits/2026-09-08-modding-findings-delta-report.md#7-world-lookup-and-transform-handling) — Read this section with the record build, evidence and audit limits.
+  - [Section: 8-entirely-new-systems-and-practical-constraints](../audits/2026-09-08-modding-findings-delta-report.md#8-entirely-new-systems-and-practical-constraints) — Read this section with the record build, evidence and audit limits.
+  - [Section: 81-rhythm-minigame](../audits/2026-09-08-modding-findings-delta-report.md#81-rhythm-minigame) — Read this section with the record build, evidence and audit limits.
+  - [Section: 82-audio](../audits/2026-09-08-modding-findings-delta-report.md#82-audio) — Read this section with the record build, evidence and audit limits.
+  - [Section: 83-performance-safety-of-injected-code](../audits/2026-09-08-modding-findings-delta-report.md#83-performance-safety-of-injected-code) — Read this section with the record build, evidence and audit limits.
+  - [Section: 84-exact-shipped-typos](../audits/2026-09-08-modding-findings-delta-report.md#84-exact-shipped-typos) — Read this section with the record build, evidence and audit limits.
+  - [Section: 9-rejected-approaches-durable-negative-knowledge](../audits/2026-09-08-modding-findings-delta-report.md#9-rejected-approaches-durable-negative-knowledge) — Read this section with the record build, evidence and audit limits.
+  - [Section: 10-cut-content-and-mail-gating](../audits/2026-09-08-modding-findings-delta-report.md#10-cut-content-and-mail-gating) — Read this section with the record build, evidence and audit limits.
+  - [Section: 11-impact-on-each-preexisting-document](../audits/2026-09-08-modding-findings-delta-report.md#11-impact-on-each-preexisting-document) — Read this section with the record build, evidence and audit limits.
+  - [Section: dialoguesystemmd](../audits/2026-09-08-modding-findings-delta-report.md#dialoguesystemmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: questsystemmd](../audits/2026-09-08-modding-findings-delta-report.md#questsystemmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: animationmd](../audits/2026-09-08-modding-findings-delta-report.md#animationmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: performancesystemmd](../audits/2026-09-08-modding-findings-delta-report.md#performancesystemmd) — Read this section with the record build, evidence and audit limits.
+  - [Section: 12-claims-that-remain-open-or-should-not-be-promoted](../audits/2026-09-08-modding-findings-delta-report.md#12-claims-that-remain-open-or-should-not-be-promoted) — Read this section with the record build, evidence and audit limits.
+  - [Section: 13-bottom-line](../audits/2026-09-08-modding-findings-delta-report.md#13-bottom-line) — Read this section with the record build, evidence and audit limits.
+
+## Historical and superseded sources
+
+- [Starsand Island — animation, rigs and facial expression](../_archive/animation-alternate.md) — Starsand Island — animation, rigs and facial expression: preserved findings, source scope, and unresolved verification. (historical; evidence: metadata, extracted-data; builds: unknown).
+  - [Section: starsand-island--animation-rigs-and-facial-expression](../_archive/animation-alternate.md#starsand-island--animation-rigs-and-facial-expression) — Read this section with the record build, evidence and audit limits.
+  - [Section: a1-there-is-no-single-facial-animation-system](../_archive/animation-alternate.md#a1-there-is-no-single-facial-animation-system) — Read this section with the record build, evidence and audit limits.
+  - [Section: a2-body-rigs-face-models-and-animationmap--the-core-mechanism](../_archive/animation-alternate.md#a2-body-rigs-face-models-and-animationmap--the-core-mechanism) — Read this section with the record build, evidence and audit limits.
+  - [Section: f1_-is-the-canonical-authoring-namespace](../_archive/animation-alternate.md#f1_-is-the-canonical-authoring-namespace) — Read this section with the record build, evidence and audit limits.
+  - [Section: roleface_-is-a-second-charactermodel-specific-remapping-layer](../_archive/animation-alternate.md#roleface_-is-a-second-charactermodel-specific-remapping-layer) — Read this section with the record build, evidence and audit limits.
+  - [Section: this-explains-the-m5-anomaly](../_archive/animation-alternate.md#this-explains-the-m5-anomaly) — Read this section with the record build, evidence and audit limits.
+  - [Section: what-the-supplied-m5-face-rig-evidence-establishes](../_archive/animation-alternate.md#what-the-supplied-m5-face-rig-evidence-establishes) — Read this section with the record build, evidence and audit limits.
+  - [Section: a3-player-major-npc-minor-npc-crowd](../_archive/animation-alternate.md#a3-player-major-npc-minor-npc-crowd) — Read this section with the record build, evidence and audit limits.
+  - [Section: a4-rig-prefixes-are-build-codes-not-gender](../_archive/animation-alternate.md#a4-rig-prefixes-are-build-codes-not-gender) — Read this section with the record build, evidence and audit limits.
+  - [Section: a5-dialogue-is-the-highest-volume-expression-channel](../_archive/animation-alternate.md#a5-dialogue-is-the-highest-volume-expression-channel) — Read this section with the record build, evidence and audit limits.
+  - [Section: the-playernpc-split-shows-in-the-data](../_archive/animation-alternate.md#the-playernpc-split-shows-in-the-data) — Read this section with the record build, evidence and audit limits.
+  - [Section: asset-backings-overlap--they-are-not-two-exclusive-types](../_archive/animation-alternate.md#asset-backings-overlap--they-are-not-two-exclusive-types) — Read this section with the record build, evidence and audit limits.
+  - [Section: dialogue-declares-a-separate-face-handle](../_archive/animation-alternate.md#dialogue-declares-a-separate-face-handle) — Read this section with the record build, evidence and audit limits.
+  - [Section: a6-emoji--emotes-and-autonomous-npc-reactions](../_archive/animation-alternate.md#a6-emoji--emotes-and-autonomous-npc-reactions) — Read this section with the record build, evidence and audit limits.
+  - [Section: a7-cutscene-animation-umovie](../_archive/animation-alternate.md#a7-cutscene-animation-umovie) — Read this section with the record build, evidence and audit limits.
+  - [Section: a8-face-customization-and-makeup](../_archive/animation-alternate.md#a8-face-customization-and-makeup) — Read this section with the record build, evidence and audit limits.
+  - [Section: a9-scale](../_archive/animation-alternate.md#a9-scale) — Read this section with the record build, evidence and audit limits.
+  - [Section: a10-open](../_archive/animation-alternate.md#a10-open) — Read this section with the record build, evidence and audit limits.
+- [Handoff for the `animation.md` audit](../audits/2026-09-01-animation-audit-handoff.md) — Handoff for the `animation.md` audit: preserved findings, source scope, and unresolved verification. (historical; evidence: metadata, extracted-data; builds: unknown).
+- [clues.md — directive and undocumented threads](../npcchatai/clues.md) — Retained historical; consult this source for exact evidence, version and limitations. (historical; evidence: metadata, runtime-reported; builds: unknown).
+  - [Section: c1-the-performance-system--cutscenes---documented--performancesystemmd](../npcchatai/clues.md#c1-the-performance-system--cutscenes---documented--performancesystemmd) — Source-specific evidence and version limits remain in this section.
+  - [Section: c2-umovie-has-undocumented-subfolders](../npcchatai/clues.md#c2-umovie-has-undocumented-subfolders) — Source-specific evidence and version limits remain in this section.
+  - [Section: c8-dll-map-gaps](../npcchatai/clues.md#c8-dll-map-gaps) — Source-specific evidence and version limits remain in this section.
+

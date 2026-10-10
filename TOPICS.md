@@ -1,0 +1,41 @@
+# Topics and aliases
+
+Generated from metadata. Scan date: 2026-10-02. Coverage: 382/382 discovered Markdown files classified. See [coverage](_meta/COVERAGE.md).
+
+- [animation](topics/animation.md) — aliases: none.
+- [asset-resolution](topics/asset-resolution.md) — aliases: none.
+- [cloth-physics](topics/cloth-physics.md) — aliases: MagicaCloth.
+- [conditions](topics/conditions.md) — aliases: none.
+- [cut-content](topics/cut-content.md) — aliases: none.
+- [diagnostics](topics/diagnostics.md) — aliases: none.
+- [dialogue](topics/dialogue.md) — aliases: none.
+- [equipment-slots](topics/equipment-slots.md) — aliases: none.
+- [facial-animation](topics/facial-animation.md) — aliases: none.
+- [glasses](topics/glasses.md) — aliases: none.
+- [hair-color](topics/hair-color.md) — aliases: TwoToneHair, RecolorGroup.
+- [items-production-shops](topics/items-production-shops.md) — aliases: crafting, cooking, merchants, inventory acquisition.
+- [loading](topics/loading.md) — aliases: none.
+- [localization](topics/localization.md) — aliases: none.
+- [makeup](topics/makeup.md) — aliases: none.
+- [materials-shaders](topics/materials-shaders.md) — aliases: none.
+- [native-analysis](topics/native-analysis.md) — aliases: none.
+- [npc-ai-chat](topics/npc-ai-chat.md) — aliases: NPCAIChat.
+- [npc-identity](topics/npc-identity.md) — aliases: NPC names, codenames, Graminova, Solara, Zephyria, Pastelle.
+- [official-mods](topics/official-mods.md) — aliases: modkit.
+- [performance](topics/performance.md) — aliases: Timeline.
+- [persistence](topics/persistence.md) — aliases: none.
+- [phone-texting](topics/phone-texting.md) — aliases: texting, ChatApp, CGlobalChatAppSystem.
+- [poi](topics/poi.md) — aliases: none.
+- [progression](topics/progression.md) — aliases: StarNote, Achievement, Journey.
+- [quest-mail](topics/quest-mail.md) — aliases: mail, affection mail.
+- [quests](topics/quests.md) — aliases: none.
+- [rigs](topics/rigs.md) — aliases: none.
+- [runtime-patching](topics/runtime-patching.md) — aliases: IFix, BepInEx.
+- [sceneplot](topics/sceneplot.md) — aliases: ScenePlot.
+- [shoe-conversion](topics/shoe-conversion.md) — aliases: F1-to-M5, M5-to-F1.
+- [skin-shading](topics/skin-shading.md) — aliases: none.
+- [social-feed](topics/social-feed.md) — aliases: CNPCSquareNews.
+- [socks](topics/socks.md) — aliases: SocksSlot, SocksPoC.
+- [template-registration](topics/template-registration.md) — aliases: none.
+- [umovie](topics/umovie.md) — aliases: none.
+- [wardrobe](topics/wardrobe.md) — aliases: none.
